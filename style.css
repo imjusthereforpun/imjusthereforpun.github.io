@@ -159,6 +159,10 @@ div#hyperLinkURL {
   }
   .bday-wish-header {
     left: 0%;
+	}
+	div#hyperLinkURL {
+    left: 4%;
+    text-align: center;
 }
 }
 @keyframes openclose {
