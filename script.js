@@ -220,14 +220,14 @@ function showText() {
 	$('#canvas').show();
 	$('#bdayTitle').hide();
 	$('#bdayWishTitle').show();
-	let myaudio = document.getElementById("player");
-	myaudio.pause();
 }
 
 function showSliderText() {
 	$('#canvas').hide();
 	$('#bdayWishTitle').hide();
 	$('#sliderImage').show();
+	let myaudio = document.getElementById("player");
+	myaudio.muted = true;
 }
 
 function showHyperLink() {
